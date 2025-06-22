@@ -54,16 +54,17 @@ Before running the notebook, ensure that the following files are present in your
 You can download these from the Kaggle competition page.
 
 ## 📒 Running the Notebook
-- 1.Open house_prices_regression.ipynb in Jupyter Notebook or Google Colab.
-- 2.Run all cells in order to:
 
--- 📥 Load and preprocess the data
--- 🔍 Perform EDA and feature engineering
--- 🤖 Train Random Forest and XGBoost regression models
--- 📈 Generate predictions on the test data
--- 💾 Create submission.csv in the required Kaggle format
+1. Open `house_prices_regression.ipynb` in **Jupyter Notebook** or **Google Colab**.  
+2. Run all cells in order to:
+   - 📥 Load and preprocess the data  
+   - 🔍 Perform EDA and feature engineering  
+   - 🤖 Train **Random Forest** and **XGBoost** regression models  
+   - 📈 Generate predictions on the test data  
+   - 💾 Create `submission.csv` in the required Kaggle format  
 
-##🌟 Feature Highlights
+
+## 🌟 Feature Highlights
 - Data Cleaning: Handles missing values and encodes categorical variables
 - Feature Engineering: Adds new features like TotalSF (total square footage)
 - Modeling: Implements regression using Random Forest and XGBoost
